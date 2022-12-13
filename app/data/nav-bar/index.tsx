@@ -1,0 +1,22 @@
+export const navBar_Item = [
+    {
+        id:1,
+        nav:'Login'
+    },
+    {
+        id:2,
+        nav:'Industries'
+    },
+    {
+        id:3,
+        nav:'AboutUs'
+    },
+    {
+        id:4,
+        nav:'Sevices'
+    },
+    {
+        id:5,
+        nav:'Home'
+    },
+]
