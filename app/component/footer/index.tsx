@@ -27,10 +27,11 @@ const Footer = () => {
                                     {
                                         footer.map(footer => {
                                             return (
-                                                <>
-                                                    <ul className='pb-5  md:pb-0 lg:pb-[2rem] md:flex md:items-center '>
-                                                        <li key={footer.id}>
+                                                <div key={footer.id.toString()}>
+                                                    <ul  className='pb-5  md:pb-0 lg:pb-[2rem] md:flex md:items-center '>
+                                                        <li >
                                                             <a href="#"
+
                                                                className='text-[11px] md:text-[1rem] font-roboto flex items-center gap-2 text-[#DED5FC] '>
                                                                 <div
                                                                     className="w-[0.5rem] h-[0.5rem] rounded-full font-normal bolt"></div>
@@ -38,7 +39,7 @@ const Footer = () => {
                                                             </a>
                                                         </li>
                                                     </ul>
-                                                </>
+                                                </div>
                                             )
                                         })
                                     }

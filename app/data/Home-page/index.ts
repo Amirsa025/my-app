@@ -6,7 +6,7 @@ import goto from 'public/image/GoTo_logo-1.png'
 import goto1 from 'public/image/GoTo_logo 2.png'
 import goto2 from 'public/image/Free_logo 1.png'
 import goto3 from 'public/image/Google__G__Logo 1.png'
-export const index = [
+export const whyus = [
     {
       id:1,
         icon :coin,
@@ -39,11 +39,11 @@ export const happyClient = [
         src:goto1
     },
     {
-        id:2,
+        id:3,
         src:goto2
     },
     {
-        id:3,
+        id:4,
         src:goto3
     },
 ]
